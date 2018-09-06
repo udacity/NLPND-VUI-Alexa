@@ -1,0 +1,31 @@
+{
+  "name": "alexa-skill-aind",
+  "version": "1.0.0",
+  "description": "student code",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "alexa",
+    "skill"
+  ],
+  "author": "Udacity student",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "dependencies": {
+    "ask-sdk": "^2.0.0"
+  },
+  "devDependencies": {
+    "aws-lambda-mock-context": "3.0.1",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "lambda-local":"^1.5.1"
+  }
+}

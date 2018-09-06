@@ -1,0 +1,51 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "history facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "a fact",
+            "a history fact",
+            "tell me a fact",
+            "tell me a history fact",
+            "give me a fact",
+            "give me a history fact",
+            "tell me trivia"
+          ],
+          "slots": []
+        },
+        {
+          "name": "ExampleFactIntent",
+          "samples": [
+            "example utterance one",
+            "example utterance two"
+          ],
+          "slots": [
+                {
+                  "name": "EXAMPLE_FACT_NAME",
+                  "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                }
+              ]
+          }
+        ]
+    }
+  }
+}

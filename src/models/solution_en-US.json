@@ -1,0 +1,89 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "history facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "a fact",
+            "a history fact",
+            "tell me a fact",
+            "tell me a history fact",
+            "give me a fact",
+            "give me a history fact",
+            "tell me trivia",
+            "tell me a history trivia",
+
+            "give me a historic fact",
+            "tell me historic trivia",
+            "give me trivia from history",
+            "tell me trivia from history",
+
+            "tell me historic trivia please",
+            "give me trivia from history please",
+            "tell me trivia from history please"
+          ],
+          "slots": []
+        },
+        {
+          "name": "ExampleFactIntent",
+          "samples": [
+            "example utterance one",
+            "example utterance two"
+          ],
+          "slots": [
+                {
+                  "name": "EXAMPLE_FACT_NAME",
+                  "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                }
+              ]
+          },
+          {
+            "name": "GetNewYearFactIntent",
+            "samples": [
+              "tell me a year fact {FACT_YEAR}",
+              "tell me a year fact please",
+              "tell me a history year fact {FACT_YEAR}",
+              "tell me a historic year fact {FACT_YEAR}",
+              "tell me year fact {FACT_YEAR}",
+              "tell year fact {FACT_YEAR}",
+              "a year fact {FACT_YEAR}",
+              "year fact {FACT_YEAR}",
+              "tell a year fact {FACT_YEAR}",
+              "a history year fact {FACT_YEAR}",
+              "a historic year fact {FACT_YEAR}",
+              "tell a history year fact {FACT_YEAR}",
+              "tell a historic year fact {FACT_YEAR}",
+              "say a year fact {FACT_YEAR}",
+              "speak me a history year fact {FACT_YEAR}",
+              "mention me a historic year fact {FACT_YEAR}",
+              "do tell me year fact {FACT_YEAR}",
+              "do speak a year fact {FACT_YEAR}"
+            ],
+            "slots": [
+                  {
+                    "name": "FACT_YEAR",
+                    "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                  }]
+          }
+        ]
+    }
+  }
+}
